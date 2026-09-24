@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta charset="UTF-8"><title>Reto 6</title><link rel="stylesheet" href="css/estilos.css"></head>
+<body>
+    <a href="index.html" class="volver">Volver al inicio</a>
+    <h1>6. Cuenta de una cena</h1>
+    <script>
+        let cuenta = Number(prompt("Monto total de la cuenta:"));
+        let personas = Number(prompt("Cantidad de personas:"));
+        
+        let pagoPorPersona = cuenta / personas;
+        document.write("<p>Cada persona debe pagar: S/ " + pagoPorPersona + "</p>");
+    </script>
+</body>
+</html>

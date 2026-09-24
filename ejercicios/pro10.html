@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta charset="UTF-8"><title>Reto 10</title><link rel="stylesheet" href="css/estilos.css"></head>
+<body>
+    <a href="index.html" class="volver">Volver al inicio</a>
+    <h1>10. Presupuesto para un viaje</h1>
+    <script>
+        let dias = Number(prompt("Cantidad de días del viaje:"));
+        let gastoAlimentacion = Number(prompt("Gasto diario en alimentación:"));
+        let gastoTransporte = Number(prompt("Gasto diario en transporte:"));
+        let gastoAlojamiento = Number(prompt("Gasto diario en alojamiento:"));
+        
+        let totalAlimentacion = dias * gastoAlimentacion;
+        let totalTransporte = dias * gastoTransporte;
+        let totalAlojamiento = dias * gastoAlojamiento;
+        let presupuestoTotal = totalAlimentacion + totalTransporte + totalAlojamiento;
+        
+        document.write("<p>Gasto total en alimentación: S/ " + totalAlimentacion + "</p>");
+        document.write("<p>Gasto total en transporte: S/ " + totalTransporte + "</p>");
+        document.write("<p>Gasto total en alojamiento: S/ " + totalAlojamiento + "</p>");
+        document.write("<h3>Presupuesto total del viaje: S/ " + presupuestoTotal + "</h3>");
+    </script>
+</body>
+</html>

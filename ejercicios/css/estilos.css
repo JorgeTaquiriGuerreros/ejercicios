@@ -1,0 +1,66 @@
+body {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    background-color: #eee8df;
+    color: #3d3d3d;
+    margin: 30px 60px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #4a4a42;
+    border-bottom: 2px solid #9b9a87;
+    padding-bottom: 8px;
+    margin-bottom: 22px;
+    font-size: 28px;
+}
+
+h2 {
+    color: #5f6b52;
+    margin-top: 28px;
+    margin-bottom: 12px;
+    font-size: 21px;
+}
+
+.datos-estudiante {
+    background-color: #faf9f6;
+    border: 1px solid #d6d0c5;
+    border-left: 5px solid #8c9275;
+    padding: 18px 20px;
+    margin-bottom: 25px;
+    border-radius: 6px;
+}
+
+ul {
+    padding-left: 25px;
+    list-style-type: square;
+}
+
+li {
+    margin: 9px 0;
+}
+
+a {
+    color: #697354;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #4f5940;
+    text-decoration: underline;
+}
+
+.volver {
+    display: inline-block;
+    margin-bottom: 20px;
+    background-color: #e2ddd3;
+    color: #4a4a42;
+    padding: 7px 13px;
+    border: 1px solid #c9c2b7;
+    border-radius: 5px;
+}
+
+.volver:hover {
+    background-color: #d5cfc4;
+    text-decoration: none;
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta charset="UTF-8"><title>Reto 7</title><link rel="stylesheet" href="css/estilos.css"></head>
+<body>
+    <a href="index.html" class="volver">Volver al inicio</a>
+    <h1>7. Sueldo de un trabajador</h1>
+    <script>
+        let sueldoMes = Number(prompt("Sueldo mensual del trabajador:"));
+        let descuento = sueldoMes * 0.13;
+        let sueldoFinal = sueldoMes - descuento;
+        
+        document.write("<p>Sueldo bruto: S/ " + sueldoMes + "</p>");
+        document.write("<p>Monto descontado: S/ " + descuento + "</p>");
+        document.write("<p>Sueldo final: S/ " + sueldoFinal + "</p>");
+    </script>
+</body>
+</html>

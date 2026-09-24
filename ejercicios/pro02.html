@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta charset="UTF-8"><title>Reto 2</title><link rel="stylesheet" href="css/estilos.css"></head>
+<body>
+    <a href="index.html" class="volver">Volver al inicio</a>
+    <h1>2. Compra de útiles escolares</h1>
+    <script>
+        let precioCuaderno = Number(prompt("Precio de un cuaderno:"));
+        let cantCuaderno = Number(prompt("Cantidad de cuadernos:"));
+        let precioLapicero = Number(prompt("Precio de un lapicero:"));
+        let cantLapicero = Number(prompt("Cantidad de lapiceros:"));
+        
+        let total = (precioCuaderno * cantCuaderno) + (precioLapicero * cantLapicero);
+        document.write("<p>El total de la compra es: S/ " + total + "</p>");
+    </script>
+</body>
+</html>
